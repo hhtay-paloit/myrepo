@@ -1,1 +1,3 @@
-FROM alpine
+FROM alpine:latest
+
+ENTRYPOINT ["/bin/sh"]
